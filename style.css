@@ -1,0 +1,26 @@
+body { 
+  font-family: Verdana, sans-serif;
+  font-size: 11px;
+  background-color: #00FD5D;
+  color: #194e6c;
+}
+
+h1 { 
+  font-size: 24pt;
+  font-family: Georgia, Times, serif;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: greenyellow;
+  }
+
+  50% {
+    color: darkred;
+  }
+
+  100% {
+    color: darkcyan;
+  }
+}
